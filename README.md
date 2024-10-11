@@ -27,29 +27,27 @@ Copy code
 git clone https://github.com/yourusername/invoice-app.git
 Navigate to the project directory:
 
-bash
-Copy code
 cd invoice-app
-Install the dependencies:
 
-bash
-Copy code
+Install the dependencies:
 npm install
 Set up your Firebase project and configure the Firebase SDK in your application. Replace the configuration details in the relevant files.
 
 Start the application:
-
-bash
-Copy code
 npm start
-Open your browser and navigate to http://localhost:3000 to view the application.
+Open your browser and navigate to http://localhost:5173 to view the application.
 
 Usage
 Authentication: Users can sign up or log in using Firebase Authentication.
 Creating Invoices: Once logged in, users can navigate to the "Create Invoice" page, fill in the invoice details, and submit to create a new invoice. The data will be stored in Firestore and updated in real time.
+You can view an invoice by clicking on the intended invoice.
+
+For easy testing, I have provided a login detail for a user that have already created an invoice: email: clint@gmail.com
+password: 00000000
+
 Contributing
 Contributions are welcome! If you have suggestions for improvements or want to report issues, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Thank you 
+
 
